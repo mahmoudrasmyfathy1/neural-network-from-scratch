@@ -1,9 +1,7 @@
+# Code reference: https://www.udemy.com/course/machine-learning-build-a-neural-network-in-77-lines-of-code/
 import math
 import random
-
-
 class NeuralNetwork():
-
     def __init__(self):
         #random.seed(1)
         self.weights = [random.uniform(-1, 1) for _ in range(3)]
